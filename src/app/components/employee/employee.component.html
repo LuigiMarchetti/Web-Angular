@@ -1,0 +1,15 @@
+<div class="funcionarios">
+    <div class="foto">
+        <img [src]="employee.foto">
+    </div>
+    <div class="item2">
+        <strong>{{employee.nome}}</strong>
+        <span>{{employee.subobjeto.propriedade1}}</span>
+        <span>{{employee.subobjeto.propriedade2}}</span>
+    </div>
+    <div class="item3">
+        <a [href]="'mailto:' + employee.email">{{employee.email}}</a>
+    </div>
+</div>
+<br>
+<br>

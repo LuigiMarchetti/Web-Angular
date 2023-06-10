@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin:0px;    
+    padding:0px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
